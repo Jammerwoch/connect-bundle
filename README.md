@@ -91,7 +91,7 @@ app.set('view engine','handlebars');
 app.use(bundler);
 ```
 
-In this example, we've configured two distinct bundles, `desktop` and `mobile`.  Bundles can be named whatever you like; this is just an example.  You can have as many or as few bundles as you want.  For JavaScript, you also must specify a location, such as `'head'`, `'afterBodyOpen'` or `'afterBodyClose'` (these are common places to include JavaScript).  It is assumed that all CSS will be referenced in `<head>`, so CSS locations don't have a location.
+In this example, we've configured two distinct bundles, `desktop` and `mobile`.  Bundles can be named whatever you like; this is just an example.  You can have as many or as few bundles as you want.  For JavaScript, you also must specify a location, such as `'head'`, `'afterBodyOpen'` or `'afterBodyClose'` (these are common places to include JavaScript).  It is assumed that all CSS will be referenced in `<head>`, so CSS bundles don't have a location.
 
 Now in your views (this example uses Handlebars):
 
