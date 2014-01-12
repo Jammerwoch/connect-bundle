@@ -1,6 +1,6 @@
 {
 	"name": "connect-bundle",
-	"version": "0.0.2beta",
+	"version": "0.0.3beta",
 	"description": "Middleware that allows you to configure client-side JavaScript and CSS bundles, and use conditionally based on environment.",
 	"main": "connect-bundle.js",
 	"keywords": [
@@ -9,6 +9,7 @@
 		"JavaScript",
 		"CSS"
 	],
+	"repository": "https://github.com/Jammerwoch/connect-bundle",
 	"author": "Ethan Brown <e@zepln.com>",
 	"licenses" : [
 		{ "type" : "MIT", "url" : "http://www.opensource.org/licenses/mit-license.php" },
