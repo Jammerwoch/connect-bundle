@@ -1,0 +1,17 @@
+{
+	"name": "connect-bundle",
+	"version": "0.0.1-beta",
+	"description": "Middleware that allows you to configure client-side JavaScript and CSS bundles, and use conditionally based on environment.",
+	"main": "connect-bundle.js",
+	"keywords": [
+		"Connect",
+		"bundle",
+		"JavaScript",
+		"CSS"
+	],
+	"author": "Ethan Brown <e@zepln.com>",
+	"licenses" : [
+		{ "type" : "MIT", "url" : "http://www.opensource.org/licenses/mit-license.php" },
+		{ "type" : "GPL-3.0", "url" : "http://www.opensource.org/licenses/gpl-3.0.html" }
+	]
+}
