@@ -1,6 +1,6 @@
 # connect-bundle
 
-Middleware that allows you to configure client-side JavaScript and CSS bundles, and use conditionally based on environment.
+Middleware that allows you to configure client-side JavaScript and CSS bundles, and use them conditionally based on current environment ("development", "production", etc.).
 
 ## What it Does
 
@@ -8,7 +8,7 @@ Allows you to specify bundles of JavaScript and CSS that are to be refrenced in 
 
 ## What it Does Not Do
 
-It does not actually _perform_ the bundling: for that, you must rely on another library such as [grunt-contrib-uglify]:https://github.com/gruntjs/grunt-contrib-uglify or [grunt-contrib-cssmin]:https://github.com/gruntjs/grunt-contrib-cssmin.  You can also use [grunt-hashres]:https://github.com/Luismahou/grunt-hashres to hash your bundles, and have it automatically update your bundle names accordingly.  Note that Grunt (or Grunt plugins) are no way required; I am just using them as examples here.
+It does not actually _perform_ the bundling: for that, you must rely on another library such as [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) or [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin).  You can also use [grunt-hashres](https://github.com/Luismahou/grunt-hashres) to hash your bundles, and have it automatically update your bundle names accordingly.  Note that Grunt (or Grunt plugins) are no way required; I am just using them as examples here.
 
 ## Installation
 
@@ -30,7 +30,8 @@ app.use(function(req, res, next){
 
 var bundler = require('connect-bundle')({
 	
-	// choose the property that will be added to res.locals (defaults to '_bundles')
+	// choose the property that will be added 
+	// to res.locals (defaults to '_bundles')
 	contextProperty = 'myBundles',
 
 	// specify your budnles
