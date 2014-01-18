@@ -1,6 +1,6 @@
 {
 	"name": "connect-bundle",
-	"version": "0.0.4beta",
+	"version": "0.0.5beta",
 	"description": "Middleware that allows you to configure client-side JavaScript and CSS bundles, and use conditionally based on environment.",
 	"main": "connect-bundle.js",
 	"keywords": [

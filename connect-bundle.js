@@ -7,7 +7,8 @@ module.exports = function(config) {
 		var bundleNames;
 		var locals = res.locals[config.contextProperty] = {};
 		var env = process.env.NODE_ENV;
-		var dev = env && env==='development';
+		// assume unset NODE_ENV => development
+		var dev = !env || env==='development';
 
 		// JavaScript
 		bundleNames = Object.keys(bundles.clientJavaScript);
